@@ -63,7 +63,7 @@ if u are in windows:
 
 just execute this:
 javac -d build -cp burpsuite_pro_v2025.10.4.jar CKEditorPassiveScanner.java
-jar cf CKEditorPathScanner.jar -C build .
+jar cf CKEditorPassiveScanner.jar -C build .
 
 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
