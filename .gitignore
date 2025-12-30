@@ -1,0 +1,21 @@
+# Gradle files
+.gradle/
+build/
+bin/
+
+# IDE files (IntelliJ, Eclipse, VS Code)
+.idea/
+*.iml
+.project
+.classpath
+.class
+
+# Compiled class files
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Burp Suite temporary files
+*.bak
