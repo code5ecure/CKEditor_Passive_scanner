@@ -1,5 +1,5 @@
 	/* ================= Design & Developed By Masoud Zivari(code5ecure)============ */
-	/* ================= Passive CKEditor4 & CKEditor5 Detection (Final + Fixed) ==== */
+	/* ================= Passive CKEditor4 & CKEditor5 Detection (Version 3.0) ==== */
 	package burp;
 	import burp.api.montoya.BurpExtension;
 	import burp.api.montoya.MontoyaApi;
