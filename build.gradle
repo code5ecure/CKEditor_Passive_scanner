@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
   
-    implementation 'net.portswigger.burp.extensions:montoya-api:1.0.21'
+    implementation 'net.portswigger.burp.extensions:montoya-api:2025.6'
 }
 
 shadowJar {

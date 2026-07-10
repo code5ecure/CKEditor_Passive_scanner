@@ -1,0 +1,19 @@
+<p>CKEditor Passive Scanner detects CKEditor installations (v4.x and v5.x) in HTTP responses, extracts version information, and enumerates loaded plugins, all without sending any active requests to the target.</p>
+
+<h2>Features</h2>
+<ul>
+  <li>Passively identifies CKEditor through response bodies, including JavaScript, CSS, HTML markers, and <code class=InlineCode>CKEDITOR.version</code> references</li>
+  <li>Extracts exact version numbers for CKEditor 4 and identifies CKEditor 5 editor types such as Classic, Inline, Balloon, and Decoupled</li>
+  <li>Enumerates loaded plugins discovered in responses, including file uploaders and image processors</li>
+  <li>Calculates the most likely installation base path from observed traffic</li>
+  <li>Reports findings as Information severity issues visible in the Dashboard and Target &rarr; Site map</li>
+  <li>Operates entirely passively with no active payloads sent, respecting scope and scanner settings</li>
+</ul>
+
+<h2>Usage</h2>
+<ol>
+  <li>Proxy your target applications traffic and browse it normally.</li>
+  <li>The extension automatically inspects HTTP responses as they pass through the proxy.</li>
+  <li>Open the Dashboard or navigate to Target &rarr; Site map and look for Information severity issues labeled <code class=InlineCode>CKEditor Detected (CKEditor 4)</code> or <code class=InlineCode>CKEditor Detected (CKEditor 5)</code>.</li>
+  <li>Select an issue to view its details, which include the detected editor type and version, the signature that triggered detection, the calculated base path, and any discovered plugins.</li>
+</ol>
